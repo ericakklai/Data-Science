@@ -1,5 +1,4 @@
 # STAT 425 Final Project : Forecast use of a city bikeshare system
-# Ka Ki Lai (kakilai2)
 # Dec 16, 2015
 
 rm(list = ls())

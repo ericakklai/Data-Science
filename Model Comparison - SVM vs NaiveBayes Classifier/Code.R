@@ -19,7 +19,7 @@ for (i in c(3,4,6,8))
 mydata_adj[ind,i] = NA
 }
 
-# Function of naive bayes for part a and b 
+# Function of naive bayes for model a and b 
 
 naive_bayes <-function(data){
 # Split data
@@ -64,7 +64,7 @@ accuracy_test = sum(pred_test == target_test_pos)/length(target_test)
 return(list(training_accuracy =accuracy_train, testing_accuracy = accuracy_test,target_train = target_train,target_test = target_test, features_train = features_train, features_test =features_test))
 }
 
-# Running part a - d for 8 times
+# Running part model a - d for 8 times
 all_train_acc = c()
 all_test_acc = c()
 for (i in 1:8)

@@ -1,6 +1,6 @@
 # Face Matching Competition by Linear SVM, Naive Bayes and Random Forest
 
-### Kaggle project 
+### Abstract
 * [Face Matching Competition]
 
 [Face Matching Competition]:<https://kaggle.com/join/cs498dfhw3>
@@ -10,23 +10,28 @@ Running various models to predict if two faces belong to the same class
 
 ###Package Installed:
 
-'''sh
-$ import numpy as np 
-$ import pandas as pd
-$ from sklearn.ensemble import RandomForestClassifier
-$ import csv
-$ from pyflann import *
-$ from sklearn.naive_bayes import GaussianNB
-$ from sklearn import svm
-$ from sklearn.svm import SVC
-$ from sklearn.svm import LinearSVC
-'''
 
-###output Files:
+```sh
+import numpy as np 
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+import csv
+from pyflann import *
+from sklearn.naive_bayes import GaussianNB
+from sklearn import svm
+from sklearn.svm import SVC
+from sklearn.svm import LinearSVC
+```
+
+###Output Files:
 Q1_nb.csv : Kaggle Submission File for Q1 naive bayes classifier
+
 Q1_svm.csv : Kaggle Submission File for Q1 linear svm classifier
+
 Q1_rf.csv : Kaggle Submission File for Q1 random forest classifier
+
 Q2.csv : Kaggle Submission File for Q2
+
 Q3.csv : Kaggle Submission File for Q3
 
 ###Summary

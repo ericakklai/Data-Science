@@ -29,6 +29,8 @@ The repositionary includes all my previous work and academic projects:
 * [Temperature Analysis] - Map Reduce
 * [Analysis by Station] - Pig
 
+[Statistical Computing:]:<https://github.com/ericakklai/Data-Science/tree/edit/Statistical%20Computing>
+
 [Kaggle: Bike Sharing Demand]: <https://github.com/ericakklai/Data-Science/tree/master/Bike%20Rental%20Prediction%20-%20Linear%20Regression%20and%20Random%20Forest>
 
 [Kaggle: Facebook Recruiting IV_Human or Robot?]: <https://github.com/ericakklai/Data-Science/tree/master/Human%20or%20Robot%3F%20-%20RF%2C%20SVM%20and%20adaboost>

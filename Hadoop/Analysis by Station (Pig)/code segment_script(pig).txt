@@ -1,4 +1,4 @@
-# The code are modified based on lecture notes of chapter 16
+
 
 
 #load data
@@ -7,7 +7,7 @@ records = LOAD 'input/ncdc/19011910.txt' AS (usaf:chararray, wban:int, year: int
 
 station = LOAD 'input/ncdc/stationlistshort.txt' AS (usaf:chararray, wban:int, name:chararray);
 
-# Exercise 1
+# Analysis 1
 recordnstation = JOIN records BY $0, station BY $0; #join
 
 lim_result = LIMIT recordnstation 10; # only show the first 10 results
@@ -15,7 +15,7 @@ DESCRIBE lim_result;
 DUMP lim_result;
 
 
-# Exercise 2
+# Analysis 2
 
 C = GROUP recordnstation BY name;
 
@@ -23,7 +23,7 @@ MaxMin_TEMP = FOREACH C GENERATE group,COUNT($1),MIN(recordnstation.temp), MAX(r
 DESCRIBE MaxMin_TEMP;
 DUMP MaxMin_TEMP;
 
-# Exercise 3
+# Analysis 3
 #sort the file in descending order of max temp
 ord  = ORDER MaxMin_TEMP by $3 DESC; 
 
@@ -45,7 +45,7 @@ DESCRIBE maxmintemp;
 # show result
 DUMP maxmintemp; 
 
-# Exercise 4
+# Analysis 4
 # calculate the range of each location
 range = FOREACH MaxMin_TEMP GENERATE group, $3-$2; 
 DESCRIBE range;

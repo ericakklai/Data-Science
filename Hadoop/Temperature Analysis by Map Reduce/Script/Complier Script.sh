@@ -1,12 +1,10 @@
-# Command line code segments for STAT 480 Homework 5
+# Command line code segments for ncdc temperature analysis
 # Ka Ki Lai (kakilai2)
 # Mar 7, 2016
 
 # Code reference from lecture resources
 # Hadoop: The Definitive Guide, Fourth Edition by Tom White
-# covered in the Spring 2016 section of 
-# Stat 480: Data Science Foundations at the University of 
-# Illinois at Urbana-Champaign
+
 #
 # The base code in hadoop-book-4e is from Tom White's github, 
 # and modifications are by Darren Glosemeyer, based on modifications 

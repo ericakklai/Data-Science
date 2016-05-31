@@ -3,30 +3,31 @@
 The repositionary includes all my previous work and academic projects:
 
 Machine Learning and Data Mining:
-*[Image Recognition] - Convolution Neural Network by tensorflow
-*[Comparative Analysis of Machine Learning Algorithms]
-*[Clustering Algorithm] - DBScan
-*[Image Processing] - EM Clustering
-*[Document Title Mining] - Frequent Pattern Mining
-*[Clustering] - K-means vs Hirerarchical
-*[Cancer Class Prediction] - multinomial regression model with lasso
-*[Music Analysis] - Regression with L1,L2, Elastic Net
-*[Model Comparison] - SVM vs NaiveBayes Classifier
-*[Principal Component Analysis (PCA)]
+
+* [Image Recognition] - Convolution Neural Network by tensorflow
+* [Comparative Analysis of Machine Learning Algorithms]
+* [Clustering Algorithm] - DBScan
+* [Image Processing] - EM Clustering
+* [Document Title Mining] - Frequent Pattern Mining
+* [Clustering] - K-means vs Hirerarchical
+* [Cancer Class Prediction] - multinomial regression model with lasso
+* [Music Analysis] - Regression with L1,L2, Elastic Net
+* [Model Comparison] - SVM vs NaiveBayes Classifier
+* [Principal Component Analysis (PCA)]
 
 Kaggle Competitions:
-*[Kaggle: Facebook Recruiting IV_Human or Robot?]- RF, SVM and adaboost
-*[Kaggle: Face Matching Competition] - SVM, RF and Naive Bayes
-*[Kaggle: Bike Sharing Demand] - Linear Regression and Random Forest
-*[Kaggle: Springleaf Marketing Response] - Random Forest and xgboost
+* [Kaggle: Facebook Recruiting IV_Human or Robot?]- RF, SVM and adaboost
+* [Kaggle: Face Matching Competition] - SVM, RF and Naive Bayes
+* [Kaggle: Bike Sharing Demand] - Linear Regression and Random Forest
+* [Kaggle: Springleaf Marketing Response] - Random Forest and xgboost
 
 Statistical Computing:
-*[Simulation on the Sample Binary Matrices with Fixed Marginals] - MCMC algorithm
-*[Sequence Prediction with Hidden Markov chain model (HMM)]
+* [Simulation on the Sample Binary Matrices with Fixed Marginals] - MCMC algorithm
+* [Sequence Prediction with Hidden Markov chain model (HMM)]
 
 Hadoop:
-*[Temperature Analysis] - Map Reduce
-*[Analysis by Station] - Pig
+* [Temperature Analysis] - Map Reduce
+* [Analysis by Station] - Pig
 
 [Kaggle: Bike Sharing Demand]: <https://github.com/ericakklai/Data-Science/tree/master/Bike%20Rental%20Prediction%20-%20Linear%20Regression%20and%20Random%20Forest>
 

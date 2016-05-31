@@ -44,7 +44,7 @@ The repositionary includes all my previous work and academic projects:
 
 [Data Segmentation]: <https://github.com/ericakklai/Data-Science/tree/master/Clustering%20Algorithm%20-%20DBScan>
 
-[Sequence Prediction with Hidden Markov chain model (HMM)]:<https://github.com/ericakklai/Data-Science/tree/edit/Statistical%20Computing/Hidden%20Markov%20chain%20model%20(HMM)>
+[Sequence Prediction with Hidden Markov chain model (HMM)]:<https://github.com/ericakklai/Data-Science/tree/edit/Statistical%20Computing/Hidden%20Marov%20Chain%20model%20(HMM)>
 
 [Document Title Mining]: <https://github.com/ericakklai/Data-Science/tree/master/Document%20Title%20Mining%20-%20Frequent%20Pattern%20Mining>
 

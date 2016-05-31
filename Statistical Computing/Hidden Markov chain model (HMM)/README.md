@@ -10,15 +10,18 @@ Each observed sequence X is simulated from a hidden Markov chain model (HMM). Th
 
 ### Data 
 
-• * [Sequence 1]
+ * [Sequence 1]
 
-• * [Sequence 2]
+ * [Sequence 2]
 
-• * [Sequence 3]
+ * [Sequence 3]
 
-[Sequence 1]:<https://archive.ics.uci.edu/ml/datasets/Geographical+Original+of+Music>
-[Sequence 2]:<https://archive.ics.uci.edu/ml/datasets/Geographical+Original+of+Music>
-[Sequence 3]:<https://archive.ics.uci.edu/ml/datasets/Geographical+Original+of+Music>
+[Sequence 1]:<https://github.com/ericakklai/Data-Science/blob/edit/Statistical%20Computing/Hidden%20Markov%20chain%20model%20(HMM)/f15_hw4_seq1.txt>
+
+[Sequence 2]:<https://github.com/ericakklai/Data-Science/blob/edit/Statistical%20Computing/Hidden%20Markov%20chain%20model%20(HMM)/f15_hw4_seq2.txt>
+
+[Sequence 3]:<https://github.com/ericakklai/Data-Science/blob/edit/Statistical%20Computing/Hidden%20Markov%20chain%20model%20(HMM)/f15_hw4_seq3.txt>
+
 
 ###Discussion
 R package hmm.discnp is used. Since the number of hidden states K is equal to 1, 2 or 3. The likelihood always increases when K is increased, i.e. complicated models with more parameters give higher likelihoods.

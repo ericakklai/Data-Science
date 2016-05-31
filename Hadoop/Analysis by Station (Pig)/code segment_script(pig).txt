@@ -1,0 +1,67 @@
+
+
+
+#load data
+pig
+records = LOAD 'input/ncdc/19011910.txt' AS (usaf:chararray, wban:int, year: int, temp: int);
+
+station = LOAD 'input/ncdc/stationlistshort.txt' AS (usaf:chararray, wban:int, name:chararray);
+
+# Analysis 1
+recordnstation = JOIN records BY $0, station BY $0; #join
+
+lim_result = LIMIT recordnstation 10; # only show the first 10 results
+DESCRIBE lim_result;
+DUMP lim_result;
+
+
+# Analysis 2
+
+C = GROUP recordnstation BY name;
+
+MaxMin_TEMP = FOREACH C GENERATE group,COUNT($1),MIN(recordnstation.temp), MAX(recordnstation.temp) ;
+DESCRIBE MaxMin_TEMP;
+DUMP MaxMin_TEMP;
+
+# Analysis 3
+#sort the file in descending order of max temp
+ord  = ORDER MaxMin_TEMP by $3 DESC; 
+
+# extract the first record as the one with max temp
+max_record = LIMIT ord 1; 
+DUMP max_record;
+
+#filter all relevant data of the station
+filtered = FILTER recordnstation BY name == max_record.$0;  
+
+# group the data by year
+grp_records = GROUP filtered BY year; 
+
+# generate min and max temperature by year
+maxmintemp = FOREACH grp_records GENERATE group,MIN(filtered.temp), MAX(filtered.temp) ;
+
+
+DESCRIBE maxmintemp;
+# show result
+DUMP maxmintemp; 
+
+# Analysis 4
+# calculate the range of each location
+range = FOREACH MaxMin_TEMP GENERATE group, $3-$2; 
+DESCRIBE range;
+DUMP range;
+
+# sort the range 
+ord_range = ORDER range by $1;
+
+#extract the first record and output result
+min_range = LIMIT ord_range 1;
+DESCRIBE min_range;
+DUMP min_range; 
+
+#obtain that station’s temperature ranges by year
+filtered_mr = FILTER recordnstation BY name == min_range.$0; 
+grp_mr = GROUP filtered_mr BY year; 
+range_mr = FOREACH grp_mr GENERATE group, MAX(filtered_mr.temp) - MIN(filtered_mr.temp);
+DESCRIBE range_mr;
+DUMP range_mr; 

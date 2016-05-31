@@ -11,9 +11,9 @@ transition matrix A of the hidden chain and the emission matrix B that I used to
 
 ### Data 
 
-• *[Sequence 1]
-• *[Sequence 2]
-• *[Sequence 3]
+• * [Sequence 1]
+• * [Sequence 2]
+• * [Sequence 3]
 
 [Sequence 1]:<https://archive.ics.uci.edu/ml/datasets/Geographical+Original+of+Music>
 [Sequence 2]:<https://archive.ics.uci.edu/ml/datasets/Geographical+Original+of+Music>
@@ -28,5 +28,7 @@ log-likelihood is worth adding extra parameters. Standard statistical procedures
 
 ### Summary of Analysis
 • Use glmnet to produce Linear/ Logistic regression regularized by L1 (Lasso Regression), L2 (Ridge Regression) and Elastic Net
+
 • Estimate the regularization coefficient that produces the minimum error
+
 • Study and Compare the number of features selected under each of the regularization scheme

@@ -1,9 +1,11 @@
 # Bike Sharing Demand by Linear Regression and Random Forest
 
-### Kaggle project 
-*[Bike Sharing Demand]
+
+* [Link to Kaggle Page]
 
 [Bike Sharing Demand]:<https://www.kaggle.com/c/bike-sharing-demand>
+
+### Project Introduction
 
 • The goal of this project is to to forecast bike rental demand in the Capital Bikeshare program in Washington, D.C. Under the Capital Bikeshare program, people can rent a bike from one location and return it to a different place. The process of obtaining membership, rental, and bike return is automated via a network of kiosk locations throughout a city.
  

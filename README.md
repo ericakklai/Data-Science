@@ -31,13 +31,14 @@ The repositionary includes all my previous work and academic projects:
 
 [Statistical Computing:]:<https://github.com/ericakklai/Data-Science/tree/edit/Statistical%20Computing>
 
-[Kaggle: Bike Sharing Demand]: <https://github.com/ericakklai/Data-Science/tree/master/Bike%20Rental%20Prediction%20-%20Linear%20Regression%20and%20Random%20Forest>
+[Kaggle: Bike Sharing Demand]: <https://github.com/ericakklai/Data-Science/tree/master/Kaggle%20Competitions/%5BKaggle%5D%20Bike%20Sharing%20Demand%20-%20Linear%20Regression%20and%20Random%20Forest>
 
-[Kaggle: Facebook Recruiting IV_Human or Robot?]: <https://github.com/ericakklai/Data-Science/tree/master/Human%20or%20Robot%3F%20-%20RF%2C%20SVM%20and%20adaboost>
+[Kaggle: Facebook Recruiting IV_Human or Robot?]: <https://github.com/ericakklai/Data-Science/tree/master/Kaggle%20Competitions/%5BKaggle%5D%20Facebook%20Recruiting%20IV_Human%20or%20Robot%3F-%20RF%2C%20SVM%20and%20adaboost>
 
-[Kaggle: Face Matching Competition]:<https://github.com/ericakklai/Data-Science/tree/edit/Kaggle%20Competition/%5BKaggle%5D%20Face%20Matching%20Competition%20by%20SVM%2C%20RF%20and%20Naive%20Bayes>
+[Kaggle: Face Matching Competition]:<https://github.com/ericakklai/Data-Science/tree/master/Kaggle%20Competitions/%5BKaggle%5D%20Face%20Matching%20Competition%20by%20SVM%2C%20RF%20and%20Naive%20Bayes>
 
-[Kaggle: Springleaf Marketing Response]: <https://github.com/ericakklai/Data-Science/tree/edit/Kaggle%20Competition/%5BKaggle%5D%20Springleaf%20Marketing%20Response_Random%20Forest%20and%20xgboost>
+[Kaggle: Springleaf Marketing Response]: <https://github.com/ericakklai/Data-Science/tree/master/Kaggle%20Competitions/%5BKaggle%5D%20Springleaf%20Marketing%20Response_Random%20Forest%20and%20xgboost>
+
 [Image Recognition]: <https://github.com/ericakklai/Data-Science/tree/master/Image%20Recognition%20-%20Convolution%20Neural%20Network%20by%20tensorflow>
 
 [Simulation on the Sample Binary Matrices with Fixed Marginals]: <https://github.com/ericakklai/Data-Science/tree/edit/Statistical%20Computing/Sample%20Binary%20Matrics%20-%20MCMC%20algorithm>
